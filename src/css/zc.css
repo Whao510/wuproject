@@ -1,0 +1,190 @@
+
+
+
+#zc{
+    height:100%;
+    width:100%;
+}
+#zc .zc-0{
+    width:100%;
+    height:28px;
+    border-bottom:1px solid #DDDDDD;
+    background:#EEEEEE;
+  
+}
+#zc .zc-01{
+    height:28px;
+    width:1195px;
+    
+}
+#zc .zc-01>p{
+    display:block;
+    height:28px;
+    width:580px;
+    font-size:12px;
+    line-height:28px;
+    color:#999;
+
+}
+#zc .zc-ul>li{
+    float:left; 
+    font-size:12px;
+    line-height:28px;
+}
+#zc .zc-ul li:nth-child(1){
+    width:73px;
+    position:relative;
+    padding-left:5px;
+}
+#zc .zc-ul li:nth-child(1) .ul0{
+    border:1px solid #C7012C;
+    height:100px;
+    width:74px;
+    position:absolute;
+    left:0px;
+    top:1px;
+    z-index:10000;
+    background:#fff;
+    display:none;
+}
+#zc .zc-ul li:nth-child(1) .ul0>.loli{
+    background:#C7012C;
+}
+
+#zc .zc-ul li:nth-child(1):hover .ul0{
+    display:block;
+}
+
+#zc .zc-ul li:nth-child(1) .ul0>li{
+    font-size:12px;
+    line-height:25px;
+    padding-left:5px;
+
+}
+#zc .zc-1{
+    height:466px;
+    width:950px;
+    margin:0 auto;
+    border-bottom:1px solid #DDD;
+    background:url("http://passport.efeihu.com/images/login/login_bg.jpg") no-repeat center bottom;
+    position:relative;
+}
+
+#zc .zclogo{
+    height:82px;
+    width:170px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background:url("../images/dllogo.png") no-repeat;
+
+}
+
+#zc .zc-11{
+    width:510px;
+    height:466px;
+    border:2px solid #EEDFBB;
+    position:absolute;
+    left:440px;
+    top:0;
+    background:#fff;
+}
+#zc .zc-12{
+    width:506px;
+    height:34px;
+    font-size:16px;
+    line-height:34px;
+    background:#F2F2F2;
+    padding-left:10px;
+}
+
+#zc .zc-13{
+    height:428px;
+    width:506px;
+    border:1px solid red;
+}
+
+
+#zc p{
+    font-size:12px;
+    line-height:32px;
+    padding-left:8px;
+    font-weight:bold;
+    color:#ccc;
+}
+#zc p>span{
+    color:red;
+}
+
+#zc form{
+    height:367px;
+}
+
+#zc input{
+    border:1px solid #ccc;
+    height:25px;
+    width:222px;
+    margin-bottom:10px;
+}
+
+#zc label{
+    width:97px;
+    display:inline-block;
+    font-size:12px;
+    line-height:12px;
+    text-align:right;
+}
+
+#zc #zcbtn{
+    height:40px;
+    width:140px;
+    border:2px solid red;
+    margin-left:100px;
+}
+
+.footer-02{
+    height:128px;
+    width:980px;
+    position:relative;
+    margin: 0 auto;
+
+}
+
+.f-ul{
+    height:25px;
+    width:980px;
+    margin-top:6px;
+}
+.f-ul li{
+    float:left;
+}
+.f-ul li>a{
+    padding-right:20px;
+    font-size:12px;
+    line-height:12px;
+}
+
+.fpp{
+    font-size:12px;
+    line-height:12px;
+    color:#999;
+    padding-bottom:8px;
+}
+.fpp>a{
+    color:#999;
+}
+.fpp a:hover{
+    color:blue;
+}
+
+.footer-02 img{
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+
+
+
+
+

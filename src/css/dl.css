@@ -1,0 +1,296 @@
+
+
+.dl-0{
+    width:100%;
+    height:28px;
+    border-bottom:1px solid #DDDDDD;
+    background:#EEEEEE;
+  
+}
+.dl-01{
+    height:28px;
+    width:980px;
+    margin: 0 auto;
+    
+}
+.dl-01>p{
+    display:block;
+    height:28px;
+    width:580px;
+    font-size:12px;
+    line-height:28px;
+    color:#999;
+
+}
+.dl-ul {
+    height: 28px;
+    position: relative;
+}
+.dl-ul>li{
+    float:left; 
+    font-size:12px;
+    line-height:28px;
+    position: relative;
+ 
+}
+
+
+.dl-ul>li:nth-child(5) i{
+    display:block;
+    width:10px;
+    height:10px;
+    background:url("../images/fw.png") -50px 0 no-repeat;
+    position:absolute;
+    left:16px;
+    top:9px;
+}
+.dl-ul>span {
+    height: 12px;
+    width: 1px;
+    background:#000;
+    display: block;
+    position: absolute;
+    left: 132px;
+    top: 9px;
+
+}
+
+.dl-ul>li:nth-child(4){
+    padding-left: 30px;
+}
+.dl-ul>li:nth-child(5){
+    padding-left: 30px;
+}
+
+.dl-ul li:nth-child(1){
+    width:73px;
+    padding-left:5px;
+}
+.dl-ul li:nth-child(1) .ul0{
+    border:1px solid #C7012C;
+    height:100px;
+    width:74px;
+    position:absolute;
+    left:-1px;
+    top:1px;
+    z-index:10000;
+    background:#fff;
+    display:none;
+}
+.dl-ul li:nth-child(1) .ul0>.loli{
+    background:#C7012C;
+}
+
+.dl-ul li:nth-child(1):hover .ul0{
+    display:block;
+}
+
+.dl-ul li:nth-child(1) .ul0>li{
+    font-size:12px;
+    line-height:25px;
+    padding-left:5px;
+
+}
+
+.dl-ul>li:nth-child(2){
+
+}
+
+
+
+.dl-1{
+    height:466px;
+    width:980px;
+    margin:0 auto;
+    border-bottom:1px solid #DDD;
+    background:url("http://passport.efeihu.com/images/login/login_bg.jpg") no-repeat center bottom;
+    position:relative;
+}
+
+.dllogo{
+    height:82px;
+    width:170px;
+    position:absolute;
+    left:15px;
+    top:0px;
+    background:url("../images/dllogo.png") no-repeat;
+
+}
+
+.dl-11{
+    width:332px;
+    height:356px;
+    border:2px solid #EEDFBB;
+    position:absolute;
+    left:440px;
+    top:47px;
+    background:#fff;
+}
+.dl-12{
+    width:328px;
+    height:34px;
+    font-size:16px;
+    line-height:34px;
+    background:#F2F2F2;
+    padding-left:10px;
+}
+
+.dl-13{
+    height:320px;
+    width:328px;
+    border:1px solid red;
+}
+
+.d0{
+    width:305px;
+    height:30px;
+    border:1px solid #ccc;
+    margin:12px 0 10px 10px;
+    font-size:12px;
+    line-height:30px;
+    padding-left: 10px;
+
+}
+
+
+.d01{
+    width:305px;
+    height:30px;
+    border:1px solid #B20000;
+    background: #FFDFBF;
+    margin:12px 0 10px 10px;
+    font-size:12px;
+    color: #B20000;
+    line-height:30px;
+    padding-left: 10px;
+    display: none;
+}
+
+.d01>i{
+    color: #D9A300;
+    padding-right: 5px;
+    font-size: 16px;
+}
+
+.wj {
+    font-size: 12px;
+    padding-left: 70px;
+}
+
+/* form{
+    height:90px;
+    width:310px;
+    margin-left:10px;
+    border-bottom:1px dashed #ccc;
+}*/
+
+.dl-1 input{
+    border:1px solid #ccc;
+    height:25px;
+    width:222px;
+    margin-bottom:10px;
+}
+
+.dl-1 label{
+    width:46px;
+    display:inline-block;
+    font-size:12px;
+    line-height:12px;
+    text-align:right;
+    margin:0 10px 0 16px;
+}
+/*form>a{
+    font-size:12px;
+    line-height:12px;
+    padding-left:73px;
+    display:block;
+}*/
+.d2{
+    height:94px;
+    width:280px;
+    margin:10px 0 0 22px;
+}
+.d2>span{
+    font-size:12px;
+    display:block;
+    float:left;
+  
+    margin-right:10px;
+
+}
+.d2 a{
+    font-size:12px;
+    display:block;
+    float:left;
+     margin-right:12px;
+
+}
+
+.d3{
+    width:222px;
+    height:30px;
+    margin-left:58px;
+}
+
+#btn{
+    border:1px solid #ccc;
+    width:140px;
+    height:30px;
+    text-align:center;
+    font-size:18px;
+    line-height:30px;
+    color:blue;
+}
+
+.d3>a{
+    font-size:12px;
+    padding-left:15px;
+    vertical-align: middle;
+
+}
+/*#dl .dl-2{
+    height:290px;
+    width:1210px;
+    float:right;
+}*/
+
+.footer-02{
+    height:128px;
+    width:980px;
+    position:relative;
+    margin: 0 auto;
+
+}
+
+.f-ul{
+    height:25px;
+    width:980px;
+    margin-top:6px;
+}
+.f-ul li{
+    float:left;
+}
+.f-ul li>a{
+    padding-right:20px;
+    font-size:12px;
+    line-height:12px;
+}
+
+.fpp{
+    font-size:12px;
+    line-height:12px;
+    color:#999;
+    padding-bottom:8px;
+}
+.fpp>a{
+    color:#999;
+}
+.fpp a:hover{
+    color:blue;
+}
+
+.footer-02 img{
+    position:absolute;
+    right:0;
+    top:0;
+}

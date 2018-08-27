@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="../css/dl.css" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/font-awesome/css/font-awesome.css" />
+        <script src="../assets/jquery-3.3.1.js"></script>
+        <script src="../js/dl.js"></script>
+    </head>     
+        
+    <body>
+        
+            <div class="dl-0">
+                <div class="dl-01">
+                    <p class="fl">您好，欢迎来到飞虎乐购!&nbsp;<a href="dl.html">安全登录</a>&nbsp;还没加入我们？&nbsp;<a href="zc.html">立即注册</a></p>
+                    <ul class="dl-ul fl">
+                        <li class="dlli"><a href=""></a>
+                        
+                        我的账号<i class="fa fa-sort-down"></i>
+                        <ul class="ul0">
+                            <li class="loli"><a href="">我的账号<i class="fa fa-sort-up"></i></a></li>
+                            <li><a href="">账号首页</a></li>
+                            <li><a href="">账号订单</a></li>
+                            <li><a href="">我的收藏</a></li>
+                        </ul>
+                        </li>
+                        <li><a href=""></a>帮助中心</li>
+                        <span></span>
+                        <li><a href=""></a><i></i>网站体验反馈</li>
+                        <li><a href=""></a><i></i>400 400 400</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="dl-1">
+
+                <div class="dllogo"></div>
+
+                <div class="dl-11">
+                    <div class="dl-12">用户登录</div>
+                    <div class="dl-13">
+                        <div class="d0">欢迎登录飞虎乐购,享受您的购物之旅。
+                        </div>
+                        <div class="d01"><i class="fa fa-exclamation-triangle d0i"></i>请输入用户名</div>
+
+                    
+                            <label for="">用户名:</label><input type="text" id="username" name=""/><br />
+                            <label for="">密码:</label><input type="password" id="password" name=""/><br />
+                            <span class="wj"><a href="">忘记密码?</a></span>
+                     
+                        <div class="d2"> 
+                                <span>联合登录:</span>
+                                <a href=""><i>1</i>支付宝快捷登录</a>
+                                <a href=""><i>2</i>QQ</a>
+                                <a href=""><i>3</i>新浪</a>
+                                <a href=""><i></i>人人网</a>
+                                <a href=""><i></i>开心</a>
+                                <a href=""><i></i>网易</a>
+                                <a href=""><i></i>迅雷</a>
+                                <a href=""><i></i>139邮箱</a>
+                        </div>
+                        <div class="d3">
+                            <button id="btn">安全登录</button>
+                            <a href="zc.html">免费注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+                <div class="footer-02">
+                    <ul class="f-ul">
+                        <li><a href="">常见问题</a></li>
+                        <li><a href="">法律说明</a></li>
+                        <li><a href="">联系客服</a></li>
+                    </ul>
+                    <p class="fpp">增值电信业务经营许可证：<a href="">粤B2-21110000</a> | 网站备案：<a href="">粤ICP备13299329号</a></p>
+                    <p class="fpp">食品流通许可证：SP2222222222222222 | 食品流通许可证：SP1103111111111111</p>
+                    <p class="fpp">Copyright © 2009-2018 深圳市理约云信息管理有限公司.All Rights Reserved &nbsp;</p>
+                    <a href=""><img src="http://szcert.ebs.org.cn/Images/govIcon.gif" title="深圳市市场监督管理局企业主体身份公示" alt="深圳市市场监督管理局企业主体身份公示" width="36" height="50" border="0" style="border-width:0px;border:hidden; border:none;"></a>
+                </div>
+
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+                 document.addEventListener('DOMContentLoaded',function(){
+
+                    var username = document.querySelector('#username');
+                    var password = document.querySelector('#password');
+                    var btndl = document.querySelector('#btn');
+                    var d0 = document.querySelector('.d0');
+                    var d01 = document.querySelector('.d01');
+                    var d0i = document.querySelector('.d0i');
+
+                    let status = [200,304];
+
+                    btndl.onclick = function(){
+                        let _username = username.value;
+                        let _password = password.value;
+
+                        if(_username.length==""){
+                            d0.style.display = 'none';
+                            d01.style.display = 'block';
+                            d01.innerText = '请输入用户名';
+                        }else if(_password.length==""){
+                            d0.style.display = 'none';
+                            d01.style.display = 'block';
+                            d01.innerText = '请输入密码';
+                        }
+
+                        let xhr = new XMLHttpRequest();
+
+                        xhr.onload = function(){
+                            if(status.indexOf(xhr.status)>=0){
+                                console.log(xhr.responseText);
+
+                                if(xhr.responseText === 'yes'){
+                                    window.location.href = "../html/fhlg.html";
+
+                                }else if(xhr.responseText === 'no'){
+                                    alert('用户名或密码错误');
+                                }
+                            }
+                        }
+
+
+                        xhr.open('post','../api/dl.php',true);
+                        xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+                        xhr.send(`username=${_username}&password=${_password}`);
+                    }
+
+            });
+ -->

@@ -1,0 +1,39 @@
+
+
+.wu-zoom {
+    position: relative;
+    width: 300px;
+    /*border: 1px solid orange;*/
+    overflow: hidden;
+}
+
+.wu-zoom img {
+    display: block;
+}
+.wu-zoom .zoom {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fc0;
+    background-color: #ff0;
+    background-color: rgba(255,255,0,.3);
+    filter: alpha(Opacity=30);
+}
+.wu-bigzoom {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border: 1px solid orange;
+    overflow: hidden;
+    top: 222px !important;
+    vertical-align: top;
+
+}
+.wu-bigzoom img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    min-width: 1000px;
+}
